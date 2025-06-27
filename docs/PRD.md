@@ -382,11 +382,8 @@ WalletX/
 │   # 核心功能已通过集成测试和实际使用验证
 ├── dist/                       # 生成输出结果的.md文件
 ├── docs/                       # 文档目录
-│   ├── PRD.md                  # 产品需求文档（本文件）
-│   ├── technical-design.md     # 技术设计文档
-│   ├── installation-guide.md   # 安装指南
-│   ├── card-split-guide.md     # 卡片分割指南
-│   └── shamir-recovery-guide.md # Shamir恢复指南
+│   └── PRD.md                  # 产品需求文档（本文件）
+
 ├── requirements/
 │   ├── base.txt                # 基础依赖
 │   └── dev.txt                 # 开发依赖
@@ -653,5 +650,5 @@ python src/main.py --help
 **更新内容**: 完整功能实施后的PRD优化和完善
 **项目负责人**: WalletX团队  
 **重要里程碑**: ✅ EMVC验证码系统实现，✅ Shamir算法优化完成
-**技术支持**: [项目GitHub地址](https://github.com/your-org/WalletX)
+**技术支持**: [项目GitHub地址](https://github.com/0x0059/WalletX)
 **标准来源**: [Bitcoin BIP-39官方标准](https://github.com/bitcoin/bips/tree/master/bip-0039)

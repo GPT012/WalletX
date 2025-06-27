@@ -31,7 +31,7 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/your-org/WalletX.git
+git clone https://github.com/0x0059/WalletX.git
 cd WalletX
 
 # 安装依赖
@@ -255,9 +255,9 @@ pip install -r requirements/base.txt
 
 ## 📞 联系我们
 
-- **项目主页**: [WalletX GitHub](https://github.com/your-org/WalletX)
+- **项目主页**: [WalletX GitHub](https://github.com/0x0059/WalletX)
 - **技术文档**: [PRD文档](docs/PRD.md)
-- **问题反馈**: [GitHub Issues](https://github.com/your-org/WalletX/issues)
+- **问题反馈**: [GitHub Issues](https://github.com/0x0059/WalletX/issues)
 
 ---
 
