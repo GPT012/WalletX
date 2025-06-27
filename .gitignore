@@ -1,0 +1,62 @@
+# WalletX .gitignore
+
+# 分布目录 - 包含敏感助记词文件
+dist/
+!dist/.gitkeep
+
+# Python编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境
+venv/
+env/
+.venv/
+.env/
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 测试和覆盖率报告
+.coverage
+.pytest_cache/
+htmlcov/
+*.cover
+.hypothesis/
+
+# 文档构建
+docs/_build/
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+
+# 敏感文件模式（额外保护）
+*wallet*.md
+*mnemonic*.md
+*seed*.md
+*private*.md
+*secret*.md
+*backup*.md
+
+# 分割文件
+*_cards.md
+*_shamir.md 
